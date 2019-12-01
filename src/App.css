@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -20,3 +21,19 @@
 .App-link {
   color: #09d3ac;
 }
+
+/* #root{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+/* }
+.newLogin{
+  width: 60%;
+  border: 1px solid red; 
+}
+.newLogin form {
+    margin: 0 auto;
+    max-width: 320px;
+  
+} */ 

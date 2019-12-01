@@ -5,9 +5,133 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.greeting{
+  text-align: center;
+  text-emphasis-color: blue;
+  color: white;
+}
+
+.newLogin{
+  padding: 25px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+
+.appTitle{
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 3px 2px lightskyblue;
+}
+
+.toolbar_navigation-items{
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 3px 2px greenyellow;
+}
+
+.logoimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 40%;
+}
+
+
+.toolbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background:white;
+  height: 65px;
+}
+
+.toolbar_navigtion {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.Logoutbtn{
+  font-size: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+/* .Savebtn{
+  width: 100%;
+  display: inline-block;
+  opacity: 0.6;
+  transition: 0.3s;
+} */
+
+.grid-container {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8); 
+  width: 400px; 
+ } 
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+} */
+
+.search-label{
+  position: relative;
+}
+
+.container input {
+  width: 33%;
+  padding: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: italic;
+  font-style: 36px;
+  outline: none;
+  color: #444;
+}
+
+.videotag {
+  padding: 15px;
+  display: center;
+}
+
+.signuppage {
+  padding: 85px;
+  font-size: 20px;
 }
